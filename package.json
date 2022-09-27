@@ -4,14 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "node index.js",
+    "client": "npm start --prefix client",
+    "start": "node index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-"scripts": {
-  "server": "node index.js",
-  "client": "npm start --prefix client",
-  "start": "node index.js",
-  "dev": "concurrently \"npm run server\" \"npm run client\""
-},
   "keywords": [],
   "author": "",
   "license": "ISC"

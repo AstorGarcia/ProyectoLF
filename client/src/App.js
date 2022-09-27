@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import Body from './Body';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,9 +14,11 @@ const App = () => {
     <Router>
     <div>
       <Header title='LF'/>
+      <Body/>
       <Footer />
     </div>
-    <Router>
+    </Router>
+
   );
 };
 
