@@ -1,0 +1,22 @@
+.body{
+  background-color: #444444;
+  color:white;
+  font-size: 20px;
+}
+
+.seg1{
+  display: flex;
+  margin:30px;
+  justify-content:space-between;
+}
+
+p{
+
+
+}
+
+img{
+  height: 500px;
+  width: 1000px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

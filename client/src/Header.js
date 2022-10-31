@@ -1,25 +1,31 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import CssHeader from "./Header.css"
+import Logo from "./logo.png"
 const Header = ({ title }) => {
   return (
-    <nav class="navbar navbar-expand-lg">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item ">
-          <Link class="nav-link active text-white btnmio" aria-current="page" to="./paginas/inicio.js" >INICIO</Link>
-        </li>
-        <li class="nav-item ">
-          <Link class="nav-link active text-white btnmio" aria-current="page" to="./paginas/service.js">SERVICE</Link>
-        </li>
-        <li class="nav-item ">
-          <Link class="nav-link active text-white btnmio" aria-current="page" to="./paginas/productos.js">PRODUCTOS</Link>
-        </li>
-        <a class="navbar-brand" href="#">
-          <img src="logo.png" alt="Logo"  class="d-inline-block align-text-top"></img>
-        </a>
+    <nav class="navbar navbar-expand-lg navegador">
+      <div class="container-fluid navegador ">
+        <div class="collapse navbar-collapse  navegador" id="navbarNav ">
+          <ul class="navbar-nav ">
+            <div class="navegador">
+              <li class="nav-item ">
+                <Link class="nav-link active text-white btnmio" aria-current="page" to="/Inicio" >INICIO</Link>
+                </li>
+                  <li class="nav-item ">
+                <Link class="nav-link active text-white btnmio" aria-current="page" to="/Service">SERVICE</Link>
+                </li>
+                  <li class="nav-item ">
+                <Link class="nav-link active text-white btnmio" aria-current="page" to="/Productos">PRODUCTOS</Link>
+                </li>
+              </div>
+              <div>
+
+            </div>
       </ul>
+      <a class="navbar-brand logolink" href="#">
+      <img src={Logo} alt="Logo"  class="d-inline-block align-text-top logo"></img>
+      </a>
     </div>
   </div>
 </nav>

@@ -1,12 +1,14 @@
 import React from 'react';
 import {Routes, Route} from "react-router-dom";
-import Inicio from "./paginas/inicio"
-import Productos from "./paginas/productos"
-import Service from "./paginas/service"
+import Inicio from "./inicio"
+import Productos from "./productos"
+import Service from "./service"
 const Body = () => {
   return (
     <Routes>
-    <Route path="./paginas/inicio" element={<Inicio/>}/>
+    <Route path="/Inicio" element={<Inicio />} />
+    <Route path="/Productos" element={<Productos />} />
+    <Route path="/Service" element={<Service />} />
     </Routes>
   );
 };

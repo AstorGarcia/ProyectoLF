@@ -1,0 +1,25 @@
+.body{
+  background-color: #99A3A4;
+  color:white;
+  font-size: 20px;
+}
+h1{
+
+  padding: 50px;
+  margin: 10px;
+  font-family:monospace;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+
+}
+p{
+  padding: 10px;
+  margin: 0px;
+  font-family:monospace;
+}
+
+.Bloque1{
+  display: flex;
+  margin: 10px;
+}
