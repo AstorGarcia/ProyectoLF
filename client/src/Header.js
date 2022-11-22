@@ -10,7 +10,7 @@ const Header = ({ title }) => {
           <ul class="navbar-nav ">
             <div class="navegador">
               <li class="nav-item ">
-                <Link class="nav-link active text-white btnmio" aria-current="page" to="/Inicio" >INICIO</Link>
+                <Link class="nav-link active text-white btnmio" aria-current="page" to="/" >INICIO</Link>
                 </li>
                   <li class="nav-item ">
                 <Link class="nav-link active text-white btnmio" aria-current="page" to="/Service">SERVICE</Link>
@@ -23,6 +23,7 @@ const Header = ({ title }) => {
 
             </div>
       </ul>
+
       <a class="navbar-brand logolink" href="#">
       <img src={Logo} alt="Logo"  class="d-inline-block align-text-top logo"></img>
       </a>
